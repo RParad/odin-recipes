@@ -1,15 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 img {
+    display: block;
     width: 300px;
     height: auto;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 h1 {
     text-align: center;
     font-size: large;
     font-weight: bold;
+    padding: 30px;
+    border: 5px;
+    border-style: dashed ;
+    
     
 }
-h2 {
+h2, h3 {
     text-align: center;
     font-size: medium;
     font-weight: bold;
+    padding: 20px;
+
+}
+ul {
+    padding: 20px;
+
+}
+.nav li {
+    padding: 10px;
 }
